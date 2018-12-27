@@ -9,7 +9,10 @@ RUN apt-get update && apt-get install -y \
     libpng-dev\
     libfreetype6-dev \
     libpq-dev \
-    libicu-dev g++
+    libicu-dev g++ \
+    libcurl4-openssl-dev \
+    libxml2-dev \
+    mysql-client
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer

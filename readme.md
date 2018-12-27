@@ -1,4 +1,4 @@
-# Flazy LEMP (still thinking of a name)
+# FDE - Flazy Docker Environment
 - Nginx
 - PHP 7.2-fpm
 - MySQL
@@ -24,7 +24,7 @@
 - Run `$ docker-compose up`
 - If it fails make sure no service like Apache is running on port 80 
 
-## About MySQL credentials
+## :floppy_disk: About MySQL credentials
 If you change mysql credentials in .env you have to re-create mysql container:
 - Database will be deleted, make a backup
 - Remove container and volume : `$ docker-compose rm -fv mysql`
