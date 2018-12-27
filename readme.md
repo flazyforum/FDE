@@ -1,8 +1,8 @@
 # FDE - Flazy Docker Environment
 - Nginx
 - PHP 7.2-fpm
-- MySQL
-- Maildev
+- MySQL - MariaDB
+- Maildev - Mailhog
 
 ## :rocket: Quickstart 
 - Install and launch Docker  
