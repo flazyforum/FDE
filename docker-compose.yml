@@ -36,3 +36,11 @@ services:
         restart: always
         ports:
             - ${MAILDEV_PORT}:80
+
+    elasticsearch:
+        image: elasticsearch
+        container_name: elasticsearch
+        restart: always
+        ports:
+            - ${ELASTIC1_PORT}:9200
+            - ${ELASTIC2_PORT}:9300

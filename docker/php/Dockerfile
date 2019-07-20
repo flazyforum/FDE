@@ -20,7 +20,6 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get -y --no-install-recommends install curl ca-certificates unzip \
         php7.2-cli php7.2-curl php-apcu php-apcu-bc \
         php7.2-json php7.2-mbstring php7.2-opcache php7.2-readline php7.2-xml php7.2-zip \
-
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN composer --version
